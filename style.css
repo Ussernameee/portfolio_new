@@ -11,9 +11,22 @@ h3 {
     margin: 0;
     padding: 0;
 }
-
+ul{
+    margin-top: 10px;
+}
 li {
     font-size: 15px;
+}
+p[value="Date"]{
+    opacity: 0.5;
+    margin: 0;
+    font-size: small;
+}
+p[value="Contact"]{
+    color: dimgray;
+}
+span[value="Name"]{
+    color: black;
 }
 
 .main-container{
@@ -71,18 +84,30 @@ li {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+.bottom-container h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    padding: 0;
+    text-transform: uppercase;
+    color: cadetblue;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
 
 .bottom-container .left-container{
     display: flex;
     flex-direction: column;
     padding: 20px;
 }
-
-.bottom-container .left-container h2{
-    font-size: 30px;
-    font-weight: 700;
-    color: #333;
-    margin-top: 5px;
-    padding: 0;
-    text-transform: uppercase;
+.bottom-container .right-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
