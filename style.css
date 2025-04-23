@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin-top: 10px;
+}
+li {
+    font-size: 15px;
+}
+p[value="Date"]{
+    opacity: 0.5;
+    margin: 0;
+    font-size: small;
+}
+p[value="Contact"]{
+    color: dimgray;
+}
+span[value="Name"]{
+    color: black;
+}
+
+.main-container{
+    display: grid;
+    grid-template-rows: 0.25fr 0.05fr 1fr;
+    height: 1000px;
+    width: 816px;
+    background-color: #f5f5f5;
+}
+
+.top-container{
+    display: grid;
+    grid-template-columns: 0.35fr 1fr 50px;
+    gap: 15px;
+}
+.top-container .left-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-container .left-container img{
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 15px;
+}
+.top-container .right-container{
+    display: flex;
+    flex-direction: column;
+}
+.top-container .right-container h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 0;
+}
+.top-container .right-container p{
+    margin: 0;
+    padding: 0;
+}
+
+.information-container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #333;
+    border-right:none;
+    border-left: none;
+}
+
+.bottom-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.bottom-container h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    padding: 0;
+    text-transform: uppercase;
+    color: cadetblue;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.bottom-container .left-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.bottom-container .right-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
